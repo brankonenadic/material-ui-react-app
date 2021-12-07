@@ -6,7 +6,7 @@ import NavBar from "./components/section/Navbar";
 function App() {
   return (
     <Fragment>
-    <NavBar />
+      <NavBar />
     </Fragment>
   );
 }

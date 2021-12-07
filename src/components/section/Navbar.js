@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { AppBar , IconButton, Toolbar} from '@material-ui/core';
-import {MenuIcon} from 'material-ui-icons'
+import {MenuIcon} from '@material-ui/icons';
 
 
 const Navbar = () => {
