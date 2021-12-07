@@ -1,12 +1,17 @@
 import React, { Fragment } from 'react';
-import { AppBar , Toolbar} from '@material-ui/core';
+import { AppBar , IconButton, Toolbar} from '@material-ui/core';
+import {MenuIcon} from 'material-ui-icons'
 
 
 const Navbar = () => {
     return (
         <Fragment>
             <AppBar position="static" color="secondary" >
-                <Toolbar />
+                <Toolbar>
+                    <IconButton>
+                        <MenuIcon />
+                    </IconButton>
+                </Toolbar>
             </AppBar>
         </Fragment>
     )
