@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import NavBar from "./components/section/Navbar";
-import {ThemeProvider, createTheme} from '@material-ui/core/styles'
-import { Button } from "@material-ui/core";
+import { ThemeProvider, createTheme } from '@material-ui/core/styles'
+import MainSection from "./components/section/MainSection";
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
   return (
     <Fragment>
       <ThemeProvider theme={theme}>
-      <NavBar />
-      <Button size="large" color="secondary" variant="contained">Secondary</Button>
+        <NavBar />
+        <MainSection />
       </ThemeProvider>
     </Fragment>
   );
