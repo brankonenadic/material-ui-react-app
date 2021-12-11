@@ -5,7 +5,7 @@ const MainSection = () => {
     return (
         <section>
             <Container>
-                <Paper variant="outlined">
+                <Paper variant="outlined" className="paper">
                     <Typography>
                         This is paper !
                         This HTML file is a template.
@@ -18,7 +18,7 @@ const MainSection = () => {
                         To create a production bundle, use `npm run build` or `yarn build
                     </Typography>
                 </Paper>
-                <Paper variant="outlined">
+                <Paper variant="outlined" className="paper">
                     <Typography>
                         This is paper !
                         This HTML file is a template.
@@ -31,7 +31,7 @@ const MainSection = () => {
                         To create a production bundle, use `npm run build` or `yarn build
                     </Typography>
                 </Paper>
-                <Paper variant="outlined">
+                <Paper variant="outlined" className="paper">
                     <Typography>
                         This is paper !
                         This HTML file is a template.
